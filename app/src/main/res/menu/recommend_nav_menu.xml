@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/rank_by_time"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/daily"
+            android:icon="@drawable/daily"
+            android:title="@string/daily_rank"
+            />
+        <item
+            android:id="@+id/weekly"
+            android:icon="@drawable/weekly"
+            android:title="@string/weekly_rank" />
+        <item
+            android:id="@+id/monthly"
+            android:icon="@drawable/monthly"
+            android:title="@string/monthly_rank" />
+    </group>
+
+
+    <group
+        android:id="@+id/rank_by_tag"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/animal_ears"
+            android:icon="@drawable/animal_ears"
+            android:title="@string/animal_ears" />
+        <item
+            android:id="@+id/white_hair"
+            android:icon="@drawable/white_hair"
+            android:title="@string/white_hair" />
+        <item
+            android:id="@+id/fanart"
+            android:icon="@drawable/fanart"
+            android:title="@string/fanart" />
+    </group>
+
+    <group
+        android:id="@+id/other"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/ai_painting"
+            android:icon="@drawable/ai_painting"
+            android:title="@string/ai_painting" />
+        <item
+            android:id="@+id/illust"
+            android:icon="@drawable/illust"
+            android:title="@string/illust" />
+        <item
+            android:id="@+id/manga"
+            android:icon="@drawable/manga"
+            android:title="@string/manga" />
+    </group>
+
+</menu>
